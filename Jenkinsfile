@@ -7,7 +7,7 @@ pipeline {
             branch:'main'
         }
       }
-      stage ('Run Script') {
+      stage ('Run script') {
         steps {
           sh 'chmod +x script.sh'
           sh './script.sh'
