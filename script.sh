@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "helooooo"
+echo "helooooo  hiiii"
