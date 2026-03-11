@@ -9,7 +9,7 @@ pipeline {
       }
       stage ('Run Script') {
         steps {
-          sh 'chmod +x script.h'
+          sh 'chmod +x script.sh'
           sh './script.sh'
         }
       }
